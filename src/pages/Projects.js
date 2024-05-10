@@ -7,7 +7,8 @@ function Projects() {
 
     return (
         <div className='app'>
-        <Navbar />
+            <Navbar />
+            <ProjectContent />
         </div>
     );
 }

@@ -1,0 +1,127 @@
+/* styles.css */
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 2rem 0px; /* Gap between grid items */
+    margin-left: auto;
+    margin-right: auto;
+    justify-items: center;
+  }
+  
+  .project-item {
+    border: 3px solid #F5EAB7;
+    background-color: #F5EAB7;
+    opacity: 1;
+    padding: 0px;
+    width: 43vw;
+    border-radius: 10px;
+    height: auto;
+    transition-duration: 0.5s;
+  }
+
+  .project-item:hover {
+    border: 3px solid #ecd571;
+    background-color: #ecd571;
+  }
+  
+  .project-information {
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+  }
+
+  .project-img {
+    max-width: 100%;
+    height: auto;
+    /* object-fit: cover; */
+    /* overflow: hidden; */
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+    text-align: center;
+  }
+
+  .project-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #6D6C4A;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  p {
+    font-size: 1rem;
+    color: black;
+  }
+
+  p a {
+    color: #20BF55;
+    font-weight: 500;
+    /* 414288 8ACB88 */
+  }
+
+  .project-subtitle {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  hr {
+    border: 5px solid #ecd571;
+    border-radius: 2px;
+    width: 10vw;
+    align-self: center;
+  }
+
+  .project-but {
+    height: 4rem;
+    width: 18rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    align-self: center;
+    font-weight: 600;
+    background-color: #35C045;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.5s;
+
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+  .project-but:hover {
+    background-color: #ecd571;
+    color: black;
+  }
+
+  .project-buttons {
+    width: 43rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+  }
+
+  .project-headers {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: Black;
+  }
+
+  .project-content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 55rem;
+  }

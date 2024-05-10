@@ -5,6 +5,10 @@ import Home from './pages/Home';
 import Projects from './pages/Projects'
 import NoPage from './pages/NoPage'
 
+import ResponsiveRedesign from './pages/Projects/ResponsiveRedesign';
+import Development from './pages/Projects/Development';
+import IterativeDesign from './pages/Projects/IterativeDesign';
+
 function App() {
   
   return (
@@ -13,7 +17,10 @@ function App() {
           <Routes>
               <Route index element={<Home />} />
               <Route path='/home' element={<Home />} />
-              <Route path='/projects' element={<Projects />} />
+              <Route path='/projects' element={<Projects />}/>
+              <Route path='responsive_redesign' element={<ResponsiveRedesign />} />
+              <Route path='development' element={<Development />} />
+              <Route path='iterative_design' element={<IterativeDesign />} />
               <Route path='*' element={<NoPage />} />
           </Routes>
       </BrowserRouter>

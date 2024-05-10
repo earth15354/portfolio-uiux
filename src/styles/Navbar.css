@@ -33,7 +33,13 @@
   }
 
   .logo {
-    margin-left: 1rem;
+    margin-left: 0px;
     height: 48px;
     width: auto;
+  }
+
+  a {
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
   }

@@ -1,15 +1,19 @@
 import React from 'react';
 import '../styles/ProjectContent.css';
 
-function ProjectItem() {
-    const { title, description, imageUrl } = project;
-
+function ProjectItem({project}) {
+    const { title, description, imageUrl, projectUrl } = project;
+    console.log(imageUrl.toString())
     return (
-        <div className="project-item">
-            <img src={imageUrl} alt={title} />
-            <h2 className="project-title">{title}</h2>
-            <p className="project-description">{description}</p>
-        </div>
+        <a href={projectUrl}>
+            <div className="project-item">
+                <img src={imageUrl} alt={title} className='project-img'/>
+                <div className="project-information">
+                    <h2 className="project-title">{title}</h2>
+                    <p className="project-description">{description}</p>
+                </div>   
+            </div>
+        </a>
     );
   }
   

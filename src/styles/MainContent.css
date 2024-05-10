@@ -13,13 +13,13 @@
 
   .social-media {
     flex-direction: column;
-    width: 9vw;
+    width: 5rem;
   }
 
   /* Haven't implemented social media stuff yet */
   .socials-button {
-    width: 8vw;
-    height: 8vw;
+    width: 100%;
+    height: auto;
   }
 
   .descriptions {
@@ -42,7 +42,7 @@
     width: 10rem;
     align-self: center;
     font-weight: 600;
-    background-color: #20BF55;
+    background-color: #35C045;
     color: white;
     border: 0px;
     border-radius: 10px;
@@ -67,13 +67,19 @@
     font-weight: 700;
     margin-bottom: 1.25rem;
   }
-
-  p {
-    font-size: 1.75rem;
+  .name {
+    text-align: left;
   }
 
-  p a {
-    color: #20BF55;
+  .main-description {
+    font-size: 1.5rem;
+    text-align: right;
+  }
+
+  .main-description a {
+    /* color: #20BF55; */
+    /* color: #4FCF5E; */
+    color: #35C045;
     font-weight: 500;
     /* 414288 8ACB88 */
   }

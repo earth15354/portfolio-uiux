@@ -1,12 +1,12 @@
 import React from 'react';
 import '../styles/App.css';
+import Navbar from '../components/Navbar';
 
 function NoPage() {
     return (
-        <div className="No">
-            <p className="No-Page">
-                <h2>Error 404: Not found</h2>
-            </p>
+        <div>
+            <Navbar />
+            <h2>Error 404: Not found (this page is still in progress!)</h2>
         </div>
     );
 }
