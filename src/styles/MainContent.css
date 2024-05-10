@@ -1,0 +1,79 @@
+.main-content {
+    /* background-image: url('your-background-image.jpg'); */
+    background-size: cover;
+    opacity: 1;
+    background-position: center;
+    /* margin-top: 60px; */
+    height: 92vh; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+  }
+
+  .social-media {
+    flex-direction: column;
+    width: 9vw;
+  }
+
+  /* Haven't implemented social media stuff yet */
+  .socials-button {
+    width: 8vw;
+    height: 8vw;
+  }
+
+  .descriptions {
+    display: flex;
+    flex-direction: column;
+    width: 37vw;
+    margin-bottom: 50px;
+  }
+
+  .main-image {
+    height: 100%;
+  }
+
+  a {
+    align-self: center;
+  }
+
+  .main-but {
+    height: 4rem;
+    width: 10rem;
+    align-self: center;
+    font-weight: 600;
+    background-color: #20BF55;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.5s;
+
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+  .main-but:hover {
+    background-color: #ecd571;
+    color: black;
+  }
+
+  h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+  }
+
+  p {
+    font-size: 1.75rem;
+  }
+
+  p a {
+    color: #20BF55;
+    font-weight: 500;
+    /* 414288 8ACB88 */
+  }

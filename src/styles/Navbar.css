@@ -1,0 +1,39 @@
+.navbar {
+    background-color: black; /* Dark blue color for navbar */
+    color: white;
+    opacity: 1;
+    padding: 11px 20px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display: inline;
+    margin-right: 3rem;
+  }
+  
+  .navbar a {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition-duration: 0.5s;
+  }
+
+  .navbar a:hover {
+    color: #EFDD8D;
+  }
+
+  .logo {
+    margin-left: 1rem;
+    height: 48px;
+    width: auto;
+  }
