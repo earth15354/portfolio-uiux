@@ -34,6 +34,16 @@ QUESTIONS FOR PORTFOLIO REVIEW:
 - Should I include extra curriculars and other things in my portfolio?
 - Is the logo out of place?
 - How can I make the landing page look less basic?
+
+STILL TO DO:
+- Improve projects page
+- Add responsiveness
+- Add missing pages
+- Link social media
+- Insert images
+- Consider margins on the side for sections at the start of projects
+- Highlight important text
+- Use lists or graphics when possible
 */
 
 export default App;
