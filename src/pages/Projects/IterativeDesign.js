@@ -3,6 +3,7 @@ import '../../styles/App.css';
 import Navbar from '../../components/Navbar';
 
 import iterative from '../../assets/iterativeDesign.png';
+import original from '../../assets/ID_original_site.png';
 
 function IterativeDesign() {
 
@@ -19,15 +20,15 @@ function IterativeDesign() {
                 <h2 className='project-headers'>Problem</h2>
                 
                 <p className="project-description">
-                    
-                <a>Timeline: 2 weeks, Role: Designer</a>
+                <a>Timeline: 2 weeks <br/> Role: Designer</a>
                 <br/><br/>
                 As part of a class project, I was given a project brief from DriverAI, a startup specializing in generating text to summarize, document, and notate codebases.
                 The brief outlined issues with the current organizational structure of the site, with users giving feedback that it was unclear as to what purpose the different
                 sections in the website served and that navigation through the site was challenging.
                 <br/><br/>
-                The original site is split into home, workspace, codebase, and technical documentation pages. In a team of three others, I was tasked with redesigning the codebase page specifically,
+                The original site (shown below) is split into home, workspace, codebase, and technical documentation pages. In a team of three others, I was tasked with redesigning the codebase page specifically,
                 but it was a huge team effort to brainstorm general solutions and cohesiveness among our designs.
+                <img src={original} className='project-image'/>
                 </p>
                 <h2 className='project-headers'>Process</h2>
                 <p className="project-description">
@@ -38,8 +39,7 @@ function IterativeDesign() {
                 We also emailed Ryan Bolick, Founding Engineer at DriverAI and our main contact person in the company, with clarifying questions to make sure our plans for future
                 designs were in line with the company's goals and vision.
                 <br/><br/>
-                Next, we created low fidelity designs in Figma for our respective pages and sent them to Ryan for more feedback. After clarifying changes we made that worked and didn't work, 
-                we converted the low fideltiy designs into high fidelity mockups and presented them to Ryan. 
+                Through this process, we spear
                 </p>
                 <h2 className='project-headers'>Outcomes</h2>
                 <p className="project-description">

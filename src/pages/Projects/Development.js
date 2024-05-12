@@ -20,7 +20,7 @@ function Development() {
                 <h2 className='project-headers'>Problem</h2>
                 
                 <p className="project-description">
-                <a>Timeline: 2 weeks</a>
+                <a>Timeline: 2 weeks<br/>Role: Frontend Engineer</a>
                 <br/><br/>
                 When designing the app, I had to consider which factors are most relevent, since user research can be expensive and implementing
                 too many features can be overwhelming/unintuitive. Additionally, since I wanted to implement sorting and filtering capabilities,

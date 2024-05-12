@@ -18,7 +18,7 @@ function ResponsiveRedesign() {
             <div className='project-content'>
                 <h2 className='project-headers'>Problem</h2>
                 <p className="project-description">
-                <a>Timeline: 2 weeks</a>
+                <a>Timeline: 2 weeks<br/>Role: Frontend Engineer</a>
                 <br/><br/>
                 I redesigned the website for the Thong Lor branch of Cafe Audrey (a restaurant in Thailand). 
                 The original site (shown above) had multiple issues, such as missing images, incosistent fonts, and very small or low contrast text that was hard to read. 
