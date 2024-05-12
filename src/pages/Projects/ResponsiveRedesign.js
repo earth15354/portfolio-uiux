@@ -17,13 +17,15 @@ function ResponsiveRedesign() {
 
             <div className='project-content'>
                 <h2 className='project-headers'>Problem</h2>
-                <img src={original_img} className='project-image'/>
                 <p className="project-description">
+                <a>Timeline: 2 weeks</a>
+                <br/><br/>
                 I redesigned the website for the Thong Lor branch of Cafe Audrey (a restaurant in Thailand). 
                 The original site (shown above) had multiple issues, such as missing images, incosistent fonts, and very small or low contrast text that was hard to read. 
                 Furthermore, a lot of important elements, like the links to the cafe's socials and a "reserve" button to reserve places at the cafe, were very small and not made prominent.
                 Finally, as someone who has also frequented the restaurant, I chose to redesign this site for one of my UIUX course assignments.
                 </p>
+                <img src={original_img} className='project-image'/>
                 <h2 className='project-headers'>Process</h2>
                 <p className="project-description">
                 I first had to come up with a design for my redesign of the site. In order to do so, I sketched out many different unique of the site on a piece of paper,

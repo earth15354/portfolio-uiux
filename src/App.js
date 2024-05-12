@@ -44,6 +44,8 @@ STILL TO DO:
 - Consider margins on the side for sections at the start of projects
 - Highlight important text
 - Use lists or graphics when possible
+- Include timeline
+- Include tab thumbnail
 */
 
 export default App;
