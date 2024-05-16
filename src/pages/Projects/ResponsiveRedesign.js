@@ -9,9 +9,11 @@ function ResponsiveRedesign() {
     return (
         <div className='app'>
             <Navbar />
-            <h1>AUDREY SITE REDESIGN</h1>
-            <p className='project-subtitle'>Designed an <a>accessible and responsive</a> redesign of the Audrey Thong Lor branch site using HTML and CSS.</p>   
-            <a href="https://earth15354.github.io/earth-responsive-redesign/"><button className="project-but">PROJECT LINK</button></a> 
+            <div className='heading'>
+                <h1>AUDREY SITE REDESIGN</h1>
+                <p className='project-subtitle'>Designed an <a>accessible and responsive</a> redesign of the Audrey Thong Lor branch site using HTML and CSS.</p>   
+                <a href="https://earth15354.github.io/earth-responsive-redesign/"><button className="project-but">PROJECT LINK</button></a> 
+            </div>
 
             <br/><hr/><br/>
 

@@ -36,16 +36,22 @@ QUESTIONS FOR PORTFOLIO REVIEW:
 - How can I make the landing page look less basic?
 
 STILL TO DO:
-- Improve projects page
-- Add responsiveness
+PRIORITY 1 (MUST DO)
 - Add missing pages
 - Link social media
+- FINISH "PROCESS" FOR DRIVERAI
+
+PRIORITY 2 (Should do)
+- Add responsiveness
 - Insert images
-- Consider margins on the side for sections at the start of projects
 - Highlight important text
 - Use lists or graphics when possible
-- Include timeline
 - Include tab thumbnail
+
+PRIORITY 3 (Not needed for Thursday)
+- Improve projects page
+- Consider margins on the side for sections at the start of projects
+- Include timeline
 */
 
 export default App;

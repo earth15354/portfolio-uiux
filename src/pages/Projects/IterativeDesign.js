@@ -10,9 +10,11 @@ function IterativeDesign() {
     return (
         <div className='app'>
             <Navbar />
-            <h1>DriverAI Content Organization Redesign</h1>
-            <p className='project-subtitle'>Collaborated with groupmates and DriverAI Founding Engineer, Ryan Bolick, to propose new designs and solutions to DriverAIs content organization and navigation issues.</p>   
-            <a href="https://www.figma.com/design/POwrMqDrGL4mrSUH1lf5Ki/DriverAI-Hi-Fi-Designs?node-id=0%3A1&t=EVg5aGUgIg48wY5x-1"><button className="project-but">FIGMA DESIGNS</button></a> 
+            <div className='heading'>
+                <h1>DriverAI Content Organization Redesign</h1>
+                <p className='project-subtitle'>Collaborated with groupmates and DriverAI Founding Engineer, Ryan Bolick, to propose new designs and solutions to DriverAIs content organization and navigation issues.</p>   
+                <a href="https://www.figma.com/design/POwrMqDrGL4mrSUH1lf5Ki/DriverAI-Hi-Fi-Designs?node-id=0%3A1&t=EVg5aGUgIg48wY5x-1"><button className="project-but">FIGMA DESIGNS</button></a> 
+            </div>
 
             <br/><hr/><br/>
 
@@ -39,7 +41,13 @@ function IterativeDesign() {
                 We also emailed Ryan Bolick, Founding Engineer at DriverAI and our main contact person in the company, with clarifying questions to make sure our plans for future
                 designs were in line with the company's goals and vision.
                 <br/><br/>
-                Through this process, we spear
+                Through consistent communication, we were able to decide on a list of goals to implement. Some goals that were relevant to the page I designed were as follows:
+                    <ul>
+                        <li>Renaming "The Hub" to "Codebase Summary", which was more intuitive according to Brown students we interviewed.</li>
+                        <li>Designing a navbar and searchbar to the side so the user knows where they are in a workspace/codebase at all times</li>
+                        <li>Moving "executive summary" and "entry point", as they were more logically placed in the "tech docs" section of the site.</li>
+                        <li>Combining "Resources" page into the "Codebase Summary" page</li>
+                    </ul>
                 </p>
                 <h2 className='project-headers'>Outcomes</h2>
                 <p className="project-description">
@@ -66,7 +74,7 @@ function IterativeDesign() {
                         <li>Collaboration</li>
                     </ul>
                 </p>
-                <h2 className='project-headers'>View Deployed Site</h2>
+                <h2 className='project-headers'>View Final Designs</h2>
                 <div className='project-buttons'>
                     <a href="https://www.figma.com/design/POwrMqDrGL4mrSUH1lf5Ki/DriverAI-Hi-Fi-Designs?node-id=0%3A1&t=EVg5aGUgIg48wY5x-1"><button className="project-but">FIGMA DESIGNS</button></a>
                 </div>

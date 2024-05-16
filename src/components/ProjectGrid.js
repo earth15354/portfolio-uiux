@@ -11,7 +11,7 @@ function ProjectGrid() {
         {
             id: 1,
             title: 'Audrey Site Redesign',
-            description: 'In this project, I redesigned the website for the Thong Lor branch of Cafe Audrey (a restaurant in Thailand). Through this project, I developed skills to design responsive and accessible websites in HTML and CSS.',
+            description: 'Redesigned the website for the Thong Lor branch of Cafe Audrey using HTML and CSS.',
             imageUrl: responsiveRedesign,
             projectUrl: 'responsive_redesign',
             date: '02/24'
@@ -19,7 +19,7 @@ function ProjectGrid() {
         {
             id: 2,
             title: 'Music App Development',
-            description: 'I developed the framework for a music app using ReactJS and CSS. The app can add songs to a list of favorite songs, as well as sort and filter the songs using multiple metrics. Through this project, I gained a unique perspective on how developers prioritise features in apps and polished my React programming skills.',
+            description: 'Developed the framework for a music app that can sort, filter, and add songs to a favorites list, using ReactJS.',
             imageUrl: development,
             projectUrl: 'development',
             date: '03/24'
@@ -27,7 +27,7 @@ function ProjectGrid() {
         {
             id: 3,
             title: 'DriverAI Content Organization Redesign',
-            description: 'As part of my User Interfaces and Experiences class, I worked in a team with classmates to redesign DriverAIs internal site for organizing large language model generated technical documentation. Through this, I gained valulable experience designing for real consumers and designing in a team.',
+            description: 'Worked in a team to redesign DriverAIs internal site for organizing large language model generated technical documentation, using Figma.',
             imageUrl: iterativeDesign,
             projectUrl: 'iterative_design',
             date: '04/24'

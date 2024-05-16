@@ -10,10 +10,12 @@ function Development() {
     return (
         <div className='app'>
             <Navbar />
+            <div className='heading'>
             <h1>MUSIC APP DEVELOPMENT</h1>
             <p className='project-subtitle'>Designed the framework for a <a>responsive</a> music app that can filter, sort, and group songs in React, using <a>competitive analysis</a> to determine which features to filter and sort by.</p>   
             <a href="https://uiux-development-app.vercel.app/"><button className="project-but">PROJECT LINK</button></a> 
-
+            </div>
+            
             <br/><hr/><br/>
 
             <div className='project-content'>

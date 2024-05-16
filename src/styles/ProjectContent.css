@@ -1,5 +1,12 @@
 /* styles.css */
 
+.heading {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70rem;
+    display: flex;
+    flex-flow: column;
+}
 .project-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Two columns */
@@ -7,6 +14,7 @@
     margin-left: auto;
     margin-right: auto;
     justify-items: center;
+    margin-bottom: 2rem;
   }
   
   .project-item {
@@ -89,7 +97,7 @@
   .project-description {
     margin-top: 0px;
     margin-bottom: 5px;
-    font-size: 1.15rem;
+    font-size: 1.25rem;
     text-align: left;
     color: black;
   }
@@ -137,7 +145,7 @@
   }
 
   .project-headers {
-    font-size: 1.75rem;
+    font-size: 2rem;
     font-weight: 600;
     color: Black;
   }
